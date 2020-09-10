@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+var dizi_adi = new Array(dizi_boyutu);
+var dizi_adi = new Array(deger1, deger2, deger3, ...);
+var dizi_adi = [deger1, deger2, deger3, ...];
+Oluşturmuş olduğumuz diziminin boyutunu bilmediğimiz durumlarda
+length
+anahtar kelimesini
+kullanabiliriz. Length anahtar kelimesinin kullanımı aşağıdaki gibidir.
+dizi_adi.length;
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title16</title>
+</head>
+
+<body>
+    <script>
+        var dizi = new Array(10)
+        for (i = 0; i < 10; ++i) {
+            dizi[i] = prompt("Diziye eklenecek değeri giriniz")
+        }
+        for (var n = 0; n < 10; ++n) {
+            document.write(dizi[n] + ".")
+        }
+    </script>
+    <script type="text/JavaScript">
+        var buyukSehirler = new Array("Ankara", "İstanbul", "İzmir", "Bursa", "Adana", "Antalya", "Konya"); buyukSehirler[buyukSehirler.length] = "Bayburt"; buyukSehirler[buyukSehirler.length] = "Siirt"; buyukSehirler[buyukSehirler.length] = "Rize"; buyukSehirler[buyukSehirler.length]
+        = "Çanakkale"; buyukSehirler[buyukSehirler.length] = "Muğla"; document.write(buyukSehirler.length + " Büyük Şehrimiz: " + "
+        <BR>"); for(var i = 0; i
+        < buyukSehirler.length; i++){ document.write(buyukSehirler[i] + ", "); } </script>
+</body>
+
+</html>

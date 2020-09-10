@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--
+~ tersini alma
+<< Sola Kaydırma
+>> Sağa Kaydırma
+& AND
+| OR
+^ XOR
+-->
+<!--
+5.1.6 Bitwise and Bit Shift Operators
+~ tersini alma
+<< Sola Kaydırma
+>> Sağa Kaydırma
+& AND
+| OR
+^ XOR
+Daha önce bilgisayarların 0 ve 1'lerden anladığından bahsetmiştik. Şuan kullandığımız sayı sistemi
+Decimal (Onluk)'tur. Fakat bilgisayarlar Binary (İkilik) sayı sistemini kullanırlar. Örneğin 5
+sayısının binary karşılığı 0101'dir. Bitsel işlemler içinde yukarıda vermiş olduğumuz operatörler
+kullanılmaktadır.
+35
+~ operatörü verilen sayıyı binary tabana çevirmekte daha sonra 1 ekleyip negatif yapmaktadır. Örneğin
+elimizde 5 sayısı olsun. Bu sayısı temsili olarak derlemeye tabi tutalım.
+a = 5;
+~a:
+> a = 0000 0000 0000 0000 0000 0000 0000 0101
+> a = 0000 0000 0000 0000 0000 0000 0000 0101 + 1
+> a = 0000 0000 0000 0000 0000 0000 0000 0110
+> a = 1000 0000 0000 0000 0000 0000 0000 0110
+a = -6
+<< operatörü verilen sayıyı belirtilen kadar sola iteleme yapar. Iteleme yaparken sol tarafa kaydırdığı
+basamak kadar 0 koyar. Aşağıdaki temsili derlemeye bakalım.
+a = 5;
+a << 2;
+> a = 0000 0000 0000 0000 0000 0000 0000 0101
+> a = 0000 0000 0000 0000 0000 0000 0000 1010
+> a = 0000 0000 0000 0000 0000 0000 0001 0100
+a = 20
+Yukarıda görüldüğü gibi a değişkeni 20 değerini almıştır. Eğer a değişkenini 3 kez sola ötelemiş olsaydık
+o zamada 40 değerini alacaktır.
+int tipindeki bir değişken hafızada 32 bit uzunluğa sahtir. Biz de yazdığımız
+değişkenlerde int tipini kullandık. Çünkü JavaScript değişken tanımlaması yaparken
+herhangi bir data type (veri tipi) yapısı tanımlamaya gerek
+duymamaktadır.
+>> operatörü, << operatörünün yaptığı işlemin tam tersini yapmaktadır. Yani verilen sayıyı sağa doğru
+iteler ve itelediği miktarda sol tarafa 0 koyar. Elimizde yine 5 sayısı olsun ve bu sayıyı 2 defa sağa doğru
+öteleyelim. Aşağıdaki temsili derlemeye bakalım.
+a = 5;
+a >> 2;
+> a = 0000 0000 0000 0000 0000 0000 0000 0101
+> a = 0000 0000 0000 0000 0000 0000 0000 0010
+> a = 0000 0000 0000 0000 0000 0000 0000 0001
+a = 1
+Yukarıda görüldüğü 5 sayıyı iki defa sağa doğru itelendiği zaman 1 değerini almaktadır. 5 sayısını 2'den
+fazla bir sayıda sağa doğru itelediğimizde her seferinde sonuç 0 olacaktır.
+& operatörü verilen iki değeri bit bit karşılaştırıp AND (Ve) mantığını çalıştırmaktadır.
+Conditional Operators (Koşul Operatörleri) bölümünde oluşturduğumuz tabloya göre
+hareket eder. Örneğin elimizde 5 ve 10 sayıları olsun. Bu sayıların temsili derleme işlemine bakalım.
+a = 5;
+b = 10;
+c = a & b;
+a = 0000 0000 0000 0000 0000 0000 0000 0101
+b = 0000 0000 0000 0000 0000 0000 0000 1010
+c = 0000 0000 0000 0000 0000 0000 0000 0000
+c = 0
+36
+Yukarıdaki örnekte görüldüğü gibi & operatörü iki sayıyı binary tabanında bit bit karşılaştırıp iki bitinde 1
+yani true olması durumunda 1 diğer durumlarda 0 yani false yapmaktadır. Verdiğimiz örnekte 1 ve 1
+sayıları hiç karşılaşmadıkları için tüm değerler 0 olmuştur.
+| operatörü de & operatöründe olduğu gibi verilen iki sayıyı bit bit karşılaştırıp farklı olarak OR (Veya)
+işlemini gerçekleştirmektedir. Conditional Operators (Koşul Operatörleri) bölümünde
+oluşturduğumuz tabloya bakabilirsiniz. & konusunda olduğu gibi örneğimiz 5 ve 10 sayıları olsun. Bu
+sayıların temsili derleme işlemine bakalım.
+a = 5;
+b = 10;
+c = a ^ b;
+a = 0000 0000 0000 0000 0000 0000 0000 0101
+b = 0000 0000 0000 0000 0000 0000 0000 1010
+c = 0000 0000 0000 0000 0000 0000 0000 1111
+c = 15
+Yukarıdaki OR işlemine tabi tuttuğumuz örnekte; sonumuz 15 çıkmıştır. Belirttiğimiz tabloyu
+incelediğiniz de neden böyle bir durumla karşılaştığımızı çok iyi anlayacaksınız.
+^ operatörü & ve | operatörlerinde olduğu gibi verilen iki sayıyı bit bit karşılaştırıp diğerlerinden farklı
+olarak XOR işlemine tabi tutmaktadır. XOR yani dışlamalı ve tablosu aşağıdaki gibidir.
+X Y XOR-Result
+0 0 1
+0 1 1
+1 0 1
+1 1 0
+Yukarıdaki tabloya göre iki değerin 1 olması durumunda 0 yani false diğer değerlerde 1 yani true değerini
+almaktadır. Bu durumu bir örnek bir derleme işlemiyle anlatalım. Örneğin sayılarımız 3 ve 5 olsun.
+Aşağıdaki örnek derleme işlemine bakalım.
+a = 3;
+b = 5;
+c = a ^ b;
+a = 0000 0000 0000 0000 0000 0000 0000 0011
+b = 0000 0000 0000 0000 0000 0000 0000 0101
+c = 0000 0000 0000 0000 0000 0000 0000 0110
+Yukarıdaki örnek derleme işlemini incelediğimizde ne demek istediğimizi anlayacaksınız sanırıyorum.
+
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title08</title>
+    <script>
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

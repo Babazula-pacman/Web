@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+<input> formenctype Özelliği
+Formenctype özelliği, form-data'nın sunucuya gönderilirken nasıl şifrelenmesi gerektiğini belirtir. 
+(sadece method="post" olan form'lar için)
+
+Formenctype özelliği, <form> elemanının enctype özniteliği geçersiz kılar.
+
+Not: Formenctype özelliği type="submit" ve type="image" ile kullanılır.
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title17</title>
+</head>
+
+<body>
+    <form action="demo_post_enctype.php" method="post">
+        İsim: <input type="text" name="fname"><br>
+        <input type="submit" value="Gönder">
+        <input type="submit" formenctype="multipart/form-data" value="Multipart/form-data Olarak Gönder">
+    </form>
+</body>
+
+</html>

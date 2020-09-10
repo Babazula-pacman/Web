@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+<form> / <input> autocomplete özelliği
+autocomplete özelliği bir form ya da input alanının autocomplete özelliğinin on ya da off olacağını belirtir.
+
+autocomplete açık olduğunda, tarayıcı otomatik olarak kullanıcı tarafından önceden girilen bilgileri tamamlar.
+
+İpucu: form'larda autocomplete on yapmak ve belli input alanlarında off yapmak mümkündür, ya da tam tersi.
+
+Not: autocomplete özelliği <form> ile ve şu <input> tipleri ile çalışır:
+text, search, url, tel, email, password, datepickers, range, ve color.
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title12</title>
+</head>
+
+<body>
+    <form autocomplete="on">
+        İsim:<input type="text" name="fname"><br> Soyisim: <input type="text" name="lname"><br> E-mail: <input type="email" name="email" autocomplete="off"><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

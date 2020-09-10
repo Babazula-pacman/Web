@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+<script type="text/JavaScript">
+function fonksiyon_adi(parametreler){
+// yapilacak islemler
+}
+</script>
+
+// fonksiyon cagirma
+// gonderilecek degerler parametreler kismina yazilir.
+fonksiyon_adi(parametreler);
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title18</title>
+    <script>
+        var a = prompt("Birinci sayı:")
+        var b = prompt("İkinci sayı:")
+
+        function islem(x, y) {
+            var intx = parseInt(x);
+            var inty = parseInt(y);
+            var top = inty + intx;
+            topla(top);
+        }
+
+        function topla(x) {
+            document.write("Sonuç:" + x);
+        }
+    </script>
+</head>
+
+<body>
+    <script>
+        islem(a, b);
+    </script>
+</body>
+
+</html>

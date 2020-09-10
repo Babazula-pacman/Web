@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+<input> formtarget Özelliği
+Formtarget özelliği, form gönderildikten sonra alınan cevabın nerede görüntüleneceğini gösteren 
+bir isim (name) ya da anahtar kelime (keyword) belirtir.
+
+Formtarget özelliği, <form> elementinin target özelliğini geçersiz kılar.
+
+Not: Formtarget özelliği type="submit" ve type="image" ile kullanılabilir.
+-->
+<html>
+
+<body>
+
+    <form action="">
+        İsim: <input type="text" name="fname"><br> Soyisim: <input type="text" name="lname"><br>
+        <input type="submit" value="Normal Gönder">
+        <input type="submit" formtarget="_blank" value="Yeni Pencerede/Sekmede Aç">
+    </form>
+</body>
+
+</html>

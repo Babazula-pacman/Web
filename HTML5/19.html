@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+<input> formnovalidate Özelliği
+Formnovalidate bir 0/1 özelliğidir (boolean) (TRUE - FALSE).
+
+Kullanıldığında, <input> elementinin doğrulanmaması gerektiğini belirtir.
+
+Formnovalidate özelliği, <form> elementinin novalidate özelliğini geçersiz kılar.
+
+Not: Formnovalidate özelliği type="submit" ile kullanılabilir.
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Titke19</title>
+</head>
+
+<body>
+    <form action="" id="form1">
+        İsim<input type="text">
+        <input type="submit" value="Gönder">
+        <input type="submit" formnovalidate value="Gönder(formnovalidate)">
+    </form>
+</body>
+
+</html>

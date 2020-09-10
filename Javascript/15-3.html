@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title15-3</title>
+</head>
+
+<body>
+    <script>
+        sayi = prompt("Bir sayı giriniz:", "");
+        sayi = parseInt(sayi);
+        var sayac = 1;
+        while (sayac <= sayi) {
+            if (sayac % 2 == 0) {
+                if (sayac % 3 == 0) {
+                    document.write(sayac + "." + "<br>");
+                }
+            }
+            ++sayac;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!--
+Bir elementi sürüklenebilir hale getirme
+Her şeyden önce: Bir elementi sürüklenebilir hale getirmek için, "draggable" özelliğini "true" yapın:
+
+Neyi Sürükleyeceğiz? - ondragstart ve setData()
+Sonra, element sürüklendiğinde ne olması gerektiğini belirtin.
+
+Yukarıdaki örnekte, ondragstart özelliği drag(event) denilen, hangi data'nın sürükleneceğini belirten bir fonksiyonu çağırmış.
+
+DataTransfer.setData() metodu sürüklenen data'nın data tipini ve değerini ayarlar:
+
+Nereye Sürükleyeceğiz? - ondragover
+ondragover olayı (event) sürüklenen datanın nereye bırakılacağını (drop) belirtir.
+
+Varsayılan olarak, veriler/elementler başka elementlerin içine bırakılamaz. Bir bırakma işlemine izin verebilmek için, elementin varsayılan kullanılma biçimini önlemeliyiz.
+
+Bu iş ondragover event'i için event.preventDefault() metodu çağrılarak yapılır:
+
+Bırakma İşlemini Yapma - ondrop
+Sürüklenen bir data bırakıldığında, bir "drop event" meydana gelir.
+
+Yukarıdaki örnekte, ondrop özelliği drop(event) denilen bir fonksiyon çağırmış:
+-->
+<html>
+
+<head>
+    <style>
+        #div1 {
+            width: 350px;
+            height: 70px;
+            padding: 10px;
+            border: 1px solid #aaaaaa;
+        }
+    </style>
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("Text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("Text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+
+<body>
+
+    <p>Aşağıdaki resimi dikdörtgenin içine sürükleyin:</p>
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <br>
+    <img id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">
+
+</body>
+
+</html>

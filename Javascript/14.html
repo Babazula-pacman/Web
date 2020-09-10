@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+<script type="text/JavaScript">
+if(kosul1){
+//yurutulecek islemler
+} else if(kosul2){
+//yurutulecek islemler
+} else if(kosul3){
+//yurutulecek islemler
+}
+...
+...
+...
+else {
+//yurutulecek islemler
+}
+</script>
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title14</title>
+</head>
+
+<body>
+    <script>
+        var vize = prompt("Vize notunuzu giriniz:");
+        var final = prompt("Final notunuzu giriniz:");
+        vizeint = parseFloat(vize);
+        finalint = parseFloat(final);
+        var islem = (vizeint * 0.6 + finalint * 0.4);
+        document.write("Vize:" + vizeint + "<br>");
+        document.write("Final:" + finalint + "<br>");
+        if (islem > 60) {
+            document.write("Sonuç puanı:" + islem + "<br>");
+            document.write("Geçtiniz!" + "<br>");
+        } else {
+            document.write("Sonuç puanı:" + islem + "<br>");
+            document.write("Kaldınız!" + "<br>");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+00.html=AnaSayfa
+01.html=<!DOCTYPE>
+02.html=<section>
+02-1.html=<article>
+03.html=<nav>
+04.html=<aside>
+05.html=<header>
+06.html=<footer>
+07.html=<figure> ve <figcaption>
+08.html=<input type="color">
+08-2.html=<input type="date">
+08-3.html=<input type="datetime">
+08-4.html=<input type="datetime-local">
+08-5.html=<input type="email">
+08-6.html=<input type="month">
+08-7.html=<input type="number">
+08-8.html=<input type="range">
+08-9.html=<input type="search">
+08-10.html=<input type="tel">
+08-11.html=<input type="time">
+08-12.html=<input type="url">
+08-13.html=<input type="week">
+09.html=<datalist>
+10.html=<keygen>
+11.html=<output>
+12.html=<form> / <input> autocomplete
+13.html=<form> novalidate
+14.html=<input> autofocus
+15.html=<input> form
+16.html=<input> formaction
+17.html=<input> formenctype
+18.html=<input> formmethod
+19.html=<input> formnovalidate
+20.html=<input> formtarget
+21.html=<input> height ve width
+22.html=<input> list
+23.html=<input> min ve max
+24.html=<input> pattern
+25.html=<input> placeholder
+26.html=<input> required
+27.html=<input> step
+28.html=<canvas>
