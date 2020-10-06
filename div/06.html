@@ -1,0 +1,24 @@
+<!--
+z-index -> hangi kutunun üste geleceğini belirler (değeri en büyük olandan en küçüğe doğru )
+(yani değeri en büyük olan en önde görünür)
+(!!!!!!!z-index 'in çalışması için positionların relative olması gerekir!!!!!!!)
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title06</title>
+        <style>
+            .div{width: 300px;height: 300px ;background-color: black;
+            color: white;font: italic 10px tahoma;position: relative;z-index: 2;}
+            .div1{width: 300px;height: 300px ;background-color: rgb(9, 255, 0);
+            color: white;font: italic 10px tahoma;margin: -100px 0 0 0;position:relative 
+            ; transform: rotate(45deg);z-index: 1;}
+        </style>
+    </head>
+    <body>
+        <div>
+        <div class="div"></div>
+        <div class="div1"></div>
+        </div>
+    </body>
+</html>
