@@ -1,0 +1,20 @@
+.base{width: 1215px;height: auto;}
+.logo{width: 100px;height: 100px;float: left;}
+.banner{width: 1100px;height: 100px;float: left;background-color: #1a0dab;margin: 0 0 0 1%;font: bold 75px "Times New Roman";
+color: white;border-radius: 10px}
+.menu{width: 1000px;height: 50px;background-color: #1155cc;margin: 1% 0 0 0;float: left}
+.social1{width: 50px;height: 50px;margin: 1% 0 0 1%;float: left}
+.social2{width: 50px;height: 50px;background-color: black;margin: 1% 0 0 1%;float: left}
+.social3{width: 50px;height: 50px;background-color: black;margin: 1% 0 0 1%;float: left}
+.mid1{width: 1214px;height: 350px;background-color: #0f9d58;margin: 1% 0 0 0;float: left}
+.mid2{width: 396px;height: 250px;background-color: #0f9d58;margin: 1% 0 0 0;float: left}
+.mid3{width: 396px;height: 250px;background-color: #0f9d58;margin: 1% 0 0 1%;float: left}
+.mid4{width: 396px;height: 250px;background-color: #0f9d58;margin: 1% 0 0 1%;float: left}
+.alt{width: 1214px;height: 175px;background-color: #125530;margin: 1% 0 0 0;float: left}
+
+
+.menu ul{margin: 0;padding: 0;list-style: none;}
+.menu ul li{float: left}
+.menu ul li{display: block;width: 250px;height: 35px;text-align: center;padding: 15px 0 0 0;font: bold 20px "Times New Roman";
+color: white;}
+.menu ul li:hover{background-color: #0f9d58;text-decoration: underline;text-decoration-color: red;}

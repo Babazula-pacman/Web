@@ -26,7 +26,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16faddcf-28ad-4be1-9c6a-667475dd71cf" name="Default Changelist" comment="Deneme123sd">
-      <change afterPath="$PROJECT_DIR$/div/denem123.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/09.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/09html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/denemesitesi/images/Denemesitesi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/denemesitesi/images/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/denemesitesi/images/insta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/denemesitesi/images/insta.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/denemesitesi/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/denemesitesi/images/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/denemesitesi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/denemesitesi/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div/ek css özellikleri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,17 +66,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ivT5uHv9B6W7olXTSIBQCG5rJw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602786885747</updated>
       <workItem from="1602786886968" duration="148000" />
-      <workItem from="1602787070009" duration="495000" />
+      <workItem from="1602787070009" duration="5713000" />
     </task>
     <task id="LOCAL-00001" summary="Deneme123">
       <created>1602787114993</created>
@@ -106,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602787535292</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Deneme123sd">
+      <created>1602787571623</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602787571623</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Deneme123sd">
+      <created>1602787602643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602787602643</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,14 +174,19 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Deneme123" />
     <MESSAGE value="Deneme123sd" />
     <option name="LAST_COMMIT_MESSAGE" value="Deneme123sd" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="60" y="108" width="804" height="529" key="Vcs.Push.Dialog.v2" timestamp="1602787492898">
+    <state x="404" y="200" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602790753604">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="60" y="108" width="804" height="529" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1602787492898" />
+    <state x="404" y="200" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1602790753604" />
+    <state x="60" y="108" width="804" height="529" key="Vcs.Push.Dialog.v2" timestamp="1602787604808">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="60" y="108" width="804" height="529" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1602787604808" />
   </component>
 </project>

@@ -1,0 +1,7 @@
+.menü{...}
+menüyü class alan divin içide de a etiketimiz olsun sadece bu divin içideki a etiketini etkilemek için
+.menü a{...} şekli kullanılır
+.menu a:hover{} hover eki üzerine geldiğinde çalışsın demektir
+
+text-decoration == yazıları dekore etmek için (örnek olarak  altını çizmek)
+display-block == divsiz kutu oluşturmak için (normal div gibi yükseklik , genişlik vs. alabilir)
