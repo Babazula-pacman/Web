@@ -1,0 +1,6 @@
+.menu{width: 130px;height: 160px;margin: 10px 0 0 0;}
+.menu ul{margin: 0;padding: 0;list-style: none}
+.menu ul li{}
+.menu ul li a{display: block;width: 148px;height: 32px;color: #2dbfa6;background-color: #0e3f36;text-decoration: none;
+text-align: center;padding: 12px 0 0 0;}
+.menu ul li a:hover{background-color: #ffffff;color: black;text-decoration: underline;font: bold 20px Tahoma}
