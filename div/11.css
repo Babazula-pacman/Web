@@ -1,0 +1,11 @@
+.menu{width: 150px;height: auto;margin: 0;}
+.menu ul{margin: 0;padding: 0;list-style: none;}
+.menu ul li {position: relative;}
+.menu ul li:hover ul{display: block;}
+.menu ul li ul{display: none;position: absolute;left: 170px;top: 0;}
+.menu ul li a{width: 150px;height: 10px;display: block;background-color: #2e0018;color: white;
+    text-align: center;padding: 10px;text-decoration: none;border-bottom: 1px solid #dee800;}
+.menu ul li a:hover{background-color: #7c0045;color: #ffda00;display: block;}
+.menu ul li ul li a{width: 150px;height: 10px;background-color: #2c2e24;color: white;
+    text-align: center;padding: 10px;text-decoration: none;border: none;}
+.menu ul li ul a:hover{background-color: black;color: white;font: bold 15px Tahoma;}
