@@ -14,7 +14,7 @@ color: white;border-radius: 10px}
 
 
 .menu ul{margin: 0;padding: 0;list-style: none;}
-.menu ul li{float: left}
+.menu ul li{float: left;}
 .menu ul li{display: block;width: 250px;height: 35px;text-align: center;padding: 15px 0 0 0;font: bold 20px "Times New Roman";
 color: white;}
 .menu ul li:hover{background-color: #0f9d58;text-decoration: underline;text-decoration-color: red;}
