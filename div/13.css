@@ -1,0 +1,7 @@
+.anadiv{width: 850px;height: auto;}
+.menu{width: 850px;height: 32px;border-bottom: 1px solid gray;}
+.menu ul{list-style: none;margin: 0;padding: 0;}
+.menu ul li{float: left;}
+.menu ul li a{display: block;width: 150px;height: 23px;text-align: center;padding: 9px 0 0 0;
+background-image: url("htmlçöpü/sekmelimenu.png");text-decoration: none;}
+.menu ul li a:hover{color: #2e0018;}
