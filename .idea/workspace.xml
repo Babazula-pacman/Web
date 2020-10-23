@@ -26,10 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16faddcf-28ad-4be1-9c6a-667475dd71cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/div/12.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/div/12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript 2020/Merhaba Dünya.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript 2020/MerhabaDünya.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/div/denemesitesi/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/div/denemesitesi/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="ComposerSettings">
     <execution>
       <executable />
@@ -45,8 +47,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Kotlin Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -62,6 +66,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1ivT5uHv9B6W7olXTSIBQCG5rJw" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -76,7 +83,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -88,9 +94,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -109,6 +116,7 @@
       <workItem from="1602951831372" duration="89000" />
       <workItem from="1602951954483" duration="62000" />
       <workItem from="1602954848613" duration="11072000" />
+      <workItem from="1603402953505" duration="127000" />
     </task>
     <task id="LOCAL-00001" summary="Deneme123">
       <created>1602787114993</created>
@@ -184,7 +192,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -203,12 +211,12 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -218,13 +226,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commit and Push" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="389" y="98" key="#Servers" timestamp="1603400397682">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state x="389" y="98" key="#Servers/0.23.1366.691@0.23.1366.691" timestamp="1603400397682" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602956587738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602956587738" />
-    <state x="404" y="200" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602790753604">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="404" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603402340386">
+      <screen x="0" y="23" width="1366" height="691" />
     </state>
+    <state x="404" y="184" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1366.691@0.23.1366.691" timestamp="1603402340386" />
     <state x="404" y="200" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1602790753604" />
     <state x="282" y="0" key="CommitChangelistDialog2" timestamp="1602965364227">
       <screen x="0" y="0" width="1366" height="728" />
@@ -234,6 +247,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1602957594748" />
+    <state x="140" y="23" key="SettingsEditor" timestamp="1603402461198">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state x="140" y="23" key="SettingsEditor/0.23.1366.691@0.23.1366.691" timestamp="1603402461198" />
     <state x="93" y="93" width="804" height="529" key="Vcs.Push.Dialog.v2" timestamp="1602965368618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -243,9 +260,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602951953384" />
+    <state x="382" y="23" width="600" height="691" key="find.popup" timestamp="1603402257544">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state x="382" y="23" width="600" height="691" key="find.popup/0.23.1366.691@0.23.1366.691" timestamp="1603402257544" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602957943268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602957943268" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
