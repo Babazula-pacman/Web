@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>escape directories</title>
+        <script>
+            //Yorum satırlarının işaretini (//) kaldırdığınızda tırnakların çakıştığı görülür
+            //var a = 'Türkiye 'nin en güzel şehri burasıdır';
+            //document.write(a);
+            //Çakışmayı önlemek için \ işareti kullanılır
+            var b = 'Türkiyenin \'nin en güzel şehri burasıdır';
+            document.write(b+"<br/>");
+            // Bölen işaret kaçış işareti olduğu için (\) gözükmedi
+            var c = "BölümA\BölümB";
+            document.write(c+"<br/>");
+            //Düzeltmek için tekrar \ kullanılır
+            var d = "BölümA\\BölümB";
+            document.write(d);
+            
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
