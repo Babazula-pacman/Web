@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Array2</title>
+    </head>
+    <body>
+        <script>
+            //İkinci Array Tanımlama Yöntemi
+            var liste1 = new Array(" Ali "," Veli "," Deli ");
+            var liste2 = [" Ahmet "," Mehmet ",liste1];
+            liste1[3]=" Emmi ";
+            document.write(liste1);
+            document.write("<br>");
+            document.write(liste2);
+            document.write("<br>");
+            //Listenin içindeki listede bulunan elemanları çağırma
+            document.write(liste2[ 2 ] [ 0  ]);
+        </script>
+        
+    </body>
+    
+</html>
